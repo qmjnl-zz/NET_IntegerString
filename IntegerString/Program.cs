@@ -4,6 +4,11 @@ namespace IntegerString
 {
     class Program
     {
+        /// <summary>
+        /// Кастомная реализация перевода целого числа в строку
+        /// </summary>
+        /// <param name="num">Число, которое нужно перевести в строку</param>
+        /// <returns>Строковое представление числа</returns>
         public static string IntToString(int num)
         {
             if (num == 0) return "0";
